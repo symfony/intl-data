@@ -1,0 +1,36 @@
+{
+    "name": "symfony/intl-data",
+    "type": "library",
+    "description": "Contains ICU data to be used with symfony/intl.",
+    "keywords": ["icu", "intl"],
+    "homepage": "http://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernhard Schussek",
+            "email": "bschussek@gmail.com"
+        },
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "http://symfony.com/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "suggest": {
+        "symfony/intl": "To easily access the ICU data from PHP"
+    },
+    "autoload": {
+        "psr-4": { "Symfony\\IntlData\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
